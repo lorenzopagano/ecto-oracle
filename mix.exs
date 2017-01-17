@@ -31,7 +31,7 @@ defmodule EctoOracleAdapter.Mixfile do
 
   defp deps do
     [{:erloci, git: "git://github.com/K2InformaticsGmbH/erloci.git"},
-      {:ecto, git: "git://github.com/elixir-lang/ecto.git"}]
+     {:ecto, "~> 2.1"}]
   end
 
   defp test_adapters(args) do
